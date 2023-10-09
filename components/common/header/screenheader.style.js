@@ -10,12 +10,20 @@ const styles = StyleSheet.create({
     borderRadius: SIZES.small / 1.25,
     justifyContent: "center",
     alignItems: "center",
+    margin: 10
   },
   btnImg: (dimension) => ({
     width: dimension,
     height: dimension,
     borderRadius: SIZES.small / 1.25,
   }),
+  drawer: {
+    backgroundColor: COLORS.white,
+  },
+  drawerItem: {
+    border: '1px solid black',
+    backgroundColor: COLORS.lightWhite
+  }
 });
 
 export default styles;
